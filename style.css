@@ -1,0 +1,574 @@
+.req1 {
+  background-color: #bdc3c7;
+  color: white;
+  font-size: 32px;
+  height: 100px;
+  margin: 50px 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  text-align: justify;
+}
+.req1 a {
+  text-decoration: none;
+}
+
+.form {
+  width: auto;
+}
+
+.white_sec {
+  border: 2px solid #e3e3e3;
+  border-radius: 7px;
+  height: auto;
+  margin: 20px 280px;
+  padding: 0px 30px;
+}
+.white_sec h4 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.white_border {
+  border: 1px solid #e3e3e3;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+.form-group {
+  margin: 30px;
+}
+.form-group label,
+.form-group input {
+  font-size: 32px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.form-group label small {
+  color: red;
+}
+.form-group input {
+  box-sizing: border-box;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  height: 55px;
+  padding: 10px;
+}
+.dropdown {
+  width: 100%;
+  height: 55px;
+  padding: 10px;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: #6c757d;
+}
+ul.toggleline {
+  display: flex;
+  justify-content: justify;
+  list-style: none;
+}
+ul.toggleline li {
+  padding: 30px;
+  font-size: 32px;
+  border: none;
+  cursor: pointer;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+/* .switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+} */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 54px;
+}
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+input:checked + .slider {
+  background-color: #2196f3;
+}
+input:checked + .slider::before {
+  transform: translateX(26px);
+}
+ul.checkbox-line {
+  display: flex;
+  justify-content: justify;
+  list-style: none;
+}
+
+ul.checkbox-line li {
+  padding: 30px;
+  font-size: 32px;
+  border: none;
+  cursor: pointer;
+}
+ul.checkbox-line li input {
+  height: 30px;
+  width: 30px;
+  background-color: aquamarine;
+}
+.pay {
+  display: block;
+}
+.accept {
+  margin: 0px 60px;
+  font-size: 32px;
+}
+.range{
+    display: flex;
+    justify-content: justify;
+    gap: 100px;
+}
+.price-dropdown{
+    width: 400px;
+    height: 55px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 32px;
+    padding: 10px;
+    color: #6c757d;
+}
+ul.bussiness{
+    display: block;
+    /* justify-content: justify; */
+    list-style: none;
+   
+
+}
+ul.bussiness li{
+   padding-bottom: 10px;
+    font-size: 32px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+ul.bussiness li h4{
+
+  margin-right: 20px;
+
+ 
+}
+ul.bussiness li span{
+    margin:0;
+    color: #6c757d;
+
+}
+
+ul.bussiness li input{
+  
+    height: 30px;
+    width: 30px;
+    background-color: aquamarine;
+   
+}
+.day_border{
+
+  border-bottom: 2px solid #f1ececeb;
+  margin: 15px 0px;
+}
+.social{
+  display: flex;
+  justify-content: justify;
+  gap: 20px;
+  height: auto;
+  list-style: none;
+  padding: 0;
+}
+.social li{
+  padding: 0px;
+  font-size: 32px;
+ 
+  margin-bottom: 10px;
+}
+.form-container{
+  margin: 10px 0px;
+  font-size: 32px;
+}
+#addFormButton{
+  color: rgb(6, 136, 242);
+  height: 50px;
+  width: 80px;
+ 
+}
+#link_text{
+  height: 35px;
+  padding: 10px;
+  width: auto;
+  font-size: 20px;
+}
+.link_drop{
+  width: 200px;
+  height: 55px;
+  font-size: 22px;
+}
+#addFaqButton{
+  color: rgb(6, 136, 242);
+  width: 150px;
+  float: right;
+  margin:5px 20px;
+  font-size: 22px;
+  cursor: pointer;
+
+}
+
+.upload-container {
+  border:  dashed #6c757d;
+  border-radius: 10px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  background-color: #e3e3e3;
+}
+.upload-container-logo {
+  border:  dashed #6c757d;
+  border-radius: 10px;
+  width: 40%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  background-color: #e3e3e3;
+  margin-bottom: 80px;
+}
+
+.upload-area p {
+  margin: 0;
+  font-size: 32px;
+  color: #888;
+}
+
+.upload-area button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #007bff;
+    background-color:white ;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 55px;
+    width: 150px;
+}
+
+.upload-area button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.upload-area input[type="file"] {
+    display: none;
+}
+.FAQ{
+  display: flex;
+  justify-content: justify;
+}
+
+#description{
+  width: 100%;
+  height: 200px;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 32px;
+  color: #6c757d;
+  resize: both;
+  margin-right: 10px;
+}
+.dashed{
+  border: #6c757d dashed 2px;
+  height: 176px;
+  background: #bdc3c7;
+}
+.buttonSave{
+
+    border: none;
+    height: auto;
+    margin: 20px 280px;
+    padding: 0px 0px;
+  
+}
+.save{
+  background-color: #28a745;
+  height: 55px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 32px;
+ 
+}
+@media screen and (max-width: 600px) {
+  .req1 {
+    background-color: #bdc3c7;
+    color: white;
+    font-size: 18px;
+    height: auto;
+    margin: 50px;
+
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  .white_sec {
+    border: 2px solid #e3e3e3;
+    height: auto;
+    width: auto;
+    margin: 20px 20px;
+    padding: 0px 10px;
+    font: 18px Poppins;
+  }
+  .form-group {
+    margin: 15px;
+  }
+  .white_sec h4 {
+    font-size: 20px;
+  
+  }
+.form-group label{
+    font-size: 15px;
+
+}
+  .form-group input {
+    padding: 5px;
+    height: 35px;
+  }
+  .form-group input::placeholder {
+    font-size: 10px;
+  }
+  .dropdown {
+    font-size: 12px;
+    height: 35px;
+    padding: 5px;
+  }
+  ul.checkbox-line{
+    display: inline-block;
+  }
+  ul.checkbox-line li{
+    padding: 10px;
+    font-size: 15px;
+  }
+  ul.checkbox-line li input{
+    height: 10px;
+    width: 10px;
+  }
+  ul.toggleline{
+    display: block;
+  }
+    ul.toggleline li{
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+   
+  .accept{
+    margin: 0px 20px;
+    font-size: 15px;
+  }
+  .range{
+    display: block;
+  }
+  .price-dropdown{
+    height: 40px;
+    width: 100% ;
+
+    font-size: 15px;
+    padding: 5px;
+    
+  }
+  ul.bussiness{
+    padding: 10px;
+  }
+  ul.bussiness li{
+    padding: 10px;
+    font-size: 13px;
+  }
+  ul.bussiness li h4{
+    font-size: 15px;
+  }
+  ul.bussiness li input{
+    height: 15px;
+    width: 15px;
+  }
+  .buttonSave{
+    width: auto;
+    margin: 20px 20px;
+    padding: 0px 0px;
+  }
+  .upload-container{
+    height: 150px;
+  }
+  .upload-area p{
+    font-size: 20px;
+  }
+  .upload-area button{
+    height: 40px;
+    width: 120px;
+    padding: 5px;
+    margin-left:10px ;
+    margin-right: 10px;
+  }
+  .upload-container-logo{
+    height: 90px;
+    width: 65%;
+  }
+  #description{
+    font-size: 20px;
+  }
+  .social{
+    display: block;
+    justify-content: justify;
+    gap: 10px;
+  }
+  #link_text{
+    height: 25px;
+    padding: 8px;
+    width: 90%;
+    font-size: 18px;
+  }
+  #addFaqButton{
+    color: rgb(6, 136, 242);
+    width: 150px;
+    float: right;
+    margin:3px 20px;
+    font-size: 12px;
+    cursor: pointer;
+  
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+  .req1 {
+    background-color: #bdc3c7;
+    color: white;
+    font-size: 19px;
+    height: auto;
+    margin: 100px;
+
+    border-radius: 10px;
+    padding: 15px;
+    text-align: justify;
+  }
+  .white_sec {
+    width: auto;
+    margin: 20px 50px;
+  }
+  .buttonSave{
+    border: none;
+   width: auto;
+    margin: 20px 50px;
+    padding: 0px 0px;
+  }
+  ul.checkbox-line{
+    display: inline-block;
+  }
+  .range{
+    display: block;
+  }
+  .price-dropdown{
+    height: 55px;
+    width: 100% ;
+    padding: 9px;
+    
+  }
+  ul.bussiness li{
+    padding: 8px;
+    font-size: 20px;
+  }
+  ul.bussiness li h4{
+    font-size: 20px;
+  }
+  ul.bussiness li input{
+    height: 20px;
+    width: 20px;
+  
+  }
+  .social{
+    display: block;
+   
+    gap: 10px;
+  }
+  #link_text{
+    height: 30px;
+    padding: 10px;
+    width: 90%;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1500px) and (min-width: 1001px) {
+  .req1 {
+    background-color: #bdc3c7;
+    color: white;
+    font-size: 20px;
+    height: auto;
+    margin: 100px;
+
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+  }
+  .white_sec {
+    width: auto;
+    margin: 20px 100px;
+  }
+  .buttonSave{
+    border: none;
+   width: auto;
+    margin: 20px 100px;
+    padding: 0px 0px;
+  }
+  .range{
+    display: flex;
+    justify-content: justify;
+    gap: 20px;
+  }
+  .price-dropdown{
+    height: 55px;
+    width: 100% ;
+    padding: 10px;
+    
+  }
+
+ 
+}

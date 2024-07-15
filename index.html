@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <div class="req1">
+      <p>
+        Returning User? Please <a href="#">Sign In</a> and if you are a New
+        User, Continue Below and register along with this submission.
+      </p>
+    </div>
+    <div class="white_sec">
+      <h4>Primary listing details</h4>
+      <div class="white_border"></div>
+      <form action="" class="form">
+        <div class="form-group">
+          <label for="listing">Listing Title <small>*</small></label>
+          <input
+            type="text"
+            id="listing"
+            name="name"
+            placeholder="Staple & Fancy Hotel"
+            required="required"
+          />
+        </div>
+        <div class="form-group">
+          <label for="address">
+            Full Address(Geolocation) <small>*</small></label
+          >
+          <input
+            type="text"
+            id="address"
+            name="address"
+            placeholder="Start typing and find your place in google map"
+          />
+        </div>
+        <div class="form-group">
+          <label for="city">City <small>*</small></label>
+          <input
+            type="text"
+            id="city"
+            name="city"
+            placeholder="Select your listing region"
+          />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone <small>*</small></label>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            placeholder="111-111-1234"
+          />
+        </div>
+        <div class="form-group">
+          <label for="website">Website <small>*</small></label>
+          <input type="text" id="website" name="state" placeholder="http://" />
+        </div>
+      </form>
+    </div>
+    <div class="white_sec">
+      <h4>Category & services</h4>
+      <div class="white_border"></div>
+      <form action="" class="form">
+        <div class="form-group">
+          <label for="category">Category <small>*</small></label>
+          <select name="category" id="category" class="dropdown">
+            <option disabled selected>Choose your bussiness Category</option>
+            <option value="2">American</option>
+            <option value="3">Arts & Entertainment</option>
+            <option value="4">Automotive</option>
+            <option value="5">Beauty & Spa</option>
+            <option value="6">Health & Medical</option>
+            <option value="7">Hotels</option>
+            <option value="8">Italian</option>
+            <option value="9">Real Estate</option>
+            <option value="10">Restaurant</option>
+            <option value="11">Services</option>
+            <option value="12">Shopping</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    <div class="white_sec">
+      <ul class="toggleline">
+        <li>
+          Delivery
+
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </li>
+        <li>
+          Takeout
+
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </li>
+      </ul>
+
+      <ul class="checkbox-line">
+        <li>
+          <input type="checkbox" />
+          <label class="container">Air Conditioning</label>
+        </li>
+        <li>
+          <input type="checkbox" />
+          <label class="container">Dogs Allowed</label>
+        </li>
+        <li>
+          <input type="checkbox" />
+          <label class="container">24 Hours Open</label>
+        </li>
+        <li>
+          <input type="checkbox" />
+          <label class="container">Wheelchair Accessible</label>
+        </li>
+      </ul>
+      <!-- <form action="" class="form">
+                <div class="form-group">
+                  <label for="container">Gender <small>*</small></label>
+                  <ul class="radioline">
+                    <li><input type="radio" name="gender" id="male">
+                        <label for="male" class="container">Male</label></li>
+                        <li><input type="radio" name="gender" id="female" >
+                            <label for="female" class="container">Male</label></li>
+                </ul>
+                </div>
+            </form> -->
+      <div class="pay">
+        <div class="accept">
+          <label for="accept">Accept Payments</label>
+        </div>
+        <ul class="checkbox-line">
+          <li>
+            <input type="checkbox" />
+            <label class="container">Credit Cards</label>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <label class="container">Bank Transfer</label>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <label class="container">Mobile Payments</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="white_sec">
+      <h4>Price details</h4>
+      <div class="white_border"></div>
+      <form class="range">
+        <div class="form-group">
+          <label for="city">Price Range</label>
+          <select name="" id="category" class="price-dropdown">
+            <option disabled selected>Not to say</option>
+            <option value="2">$-Inexpensive</option>
+            <option value="3">$$ - Moderate</option>
+            <option value="4">$$$ - Pricey</option>
+            <option value="5">$$$$ - Ultra High</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="city">Price From</label>
+          <input type="text" id="city" name="city" placeholder="Price From" />
+        </div>
+        <div class="form-group">
+          <label for="phone">Price To</label>
+          <input type="text" id="phone" name="phone" placeholder="Price To" />
+        </div>
+      </form>
+    </div>
+
+    <div class="white_sec">
+      <h4>Bussiness Hours</h4>
+      <div class="white_border"></div>
+      <form action="" class="form">
+        <ul class="bussiness">
+          <li>
+            <b>Monday</b><span>09:00AM - 05:00AM</span>
+            <input type="checkbox" />
+          </li>
+          <div class="day_border"></div>
+          <li>
+            <b>Tuesday</b><span>09:00AM - 05:00AM</span>
+            <input type="checkbox" />
+          </li>
+          <div class="day_border"></div>
+          <li>
+            <b>Wednesday</b><span>09:00AM - 05:00AM</span>
+            <input type="checkbox" />
+          </li>
+          <div class="day_border"></div>
+          <li>
+            <b>Thursday </b><span>09:00AM - 05:00AM</span>
+            <input type="checkbox" />
+          </li>
+          <div class="day_border"></div>
+          <li>
+            <b>Friday</b><span>09:00AM - 05:00AM</span>
+            <input type="checkbox" />
+          </li>
+          <div class="day_border"></div>
+          <li>
+            <b>Saturday</b><span>09:00AM - 05:00AM</span>
+            <input type="checkbox" />
+          </li>
+          <div class="day_border"></div>
+          <li>
+            <b>Sunday</b><span>09:00AM - 05:00AM</span>
+            <input type="checkbox" />
+          </li>
+          <div class="day_border"></div>
+        </ul>
+      </form>
+    </div>
+    <div class="white_sec">
+      <h4>Social Media</h4>
+      <div class="white_border"></div>
+     
+    
+
+      <ul class="social">
+        <li> <b>Select</b></li>
+        <li> <select name="links" id="links" class="link_drop">
+          <option  disabled selected>
+           Please Select 
+          </option>
+          <option value="2">Facebook</option>
+          <option value="3">Twitter</option>
+          <option value="4">Instagram</option>
+          <option value="5">Linkedin</option>
+          <option value="6">YouTube</option>
+        </select></li>
+        <li> <input type="text" name="" id="link_text">
+        </li>
+        <li><i class="fa fa-plus-square" id="addFormButton" aria-hidden="true"></i>
+        
+      </li>
+      </ul>
+      <div id="formContainer"></div>
+    </div>
+
+
+    <div class="white_sec">
+      <h4>FREQUENTLY ASKED QUESTIONS</h4>
+      <div class="white_border"></div> 
+      <div class="form-group">
+        <label for="description">FAQ</label>
+        <input
+        type="text"
+        id="FAQ"
+        name="name"
+        placeholder="FAQ"
+        required="required"
+      />
+        <textarea
+          name="description"
+          id="description"
+          placeholder="Answer"
+        ></textarea>
+      
+     <p id="addFaqButton"  > <i class="fa fa-plus-square" aria-hidden="true"></i> ADD NEW</p>
+    </div>
+      <div class="faq-container" id="faqContainer"></div>
+    </div>
+
+    <div class="white_sec">
+      <h4>More Info</h4>
+      <div class="white_border"></div>
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea
+          name="description"
+          id="description"
+          placeholder="Write a short description about your listing"
+        ></textarea>
+      </div>
+      <div class="form-group">
+        <label for="description">Tags Or Keywords (Comma Seprated)</label>
+        <textarea
+          name="description"
+          id="description"
+          placeholder="Write a short description about your listing"
+        ></textarea>
+      </div>
+    </div>
+    <div class="white_sec">
+      <h4>Media</h4>
+      <div class="white_border"></div>
+      <div class="form-group">
+        <label for="video">Your Bussiness Video<small>*</small></label>
+        <input
+          type="text"
+          id="listing"
+          name="name"
+          placeholder="ex: https://youtu.be/Y2jyAdbvdQ"
+          required="required"
+        />
+      </div>
+      <div class="form-group">
+        <label for="image">Images</label>
+        <div class="upload-container">
+          <div class="upload-area">
+              <p>Drop files here or click to upload</p>
+              <button>Browse Files</button>
+              <input type="file" id="file-input" multiple>
+          </div>
+      </div>
+        
+    </div>
+    <div class="form-group">
+      <label for="image">Upload Bussiness logo</label>
+      <div class="upload-container-logo">
+        <div class="upload-area">
+          <div> <p>Choose a file</p>
+            <button>Browse Files</button></div>
+           
+            <input type="file" id="file-input" multiple>
+        </div>
+    </div>
+      
+  </div>
+    </div>
+    <div class="white_sec">
+        <div class="form-group">
+          <label for="email">Enter Email To Signup & Recieve Notification Upon Listing Approval </label>
+          <input
+            type="text"
+            id="email"
+            name="name"
+            placeholder="your contact email"
+            required="required"
+          />
+        </div>
+        <ul class="checkbox-line">
+          <li>
+            <input type="checkbox" />
+            <label class="container">Already have acount?</label>
+          </li>
+        </ul>
+      </div>
+     
+      <div class="buttonSave" >
+        <button class="save" type="submit" >Save & preview</button>
+       </div>
+       <script >
+        document.querySelector('.upload-area button').addEventListener('click', function() {
+    document.getElementById('file-input').click();
+});
+
+document.getElementById('file-input').addEventListener('change', function() {
+    const files = this.files;
+    if (files.length > 0) {
+        alert(`${files.length} file(s) selected`);
+    }
+});
+    
+document.getElementById('addFormButton').addEventListener('click', function() {
+    // Create a new div element to contain the form
+    let newDiv = document.createElement('div');
+    newDiv.classList.add('form-container');
+
+  
+    // Create the UL element
+    let newUl = document.createElement('ul');
+    newUl.classList.add('social');
+
+    // Create the LI for the select element
+    let litext =document.createElement('li');
+    let newH5 = document.createElement('b');
+    newH5.textContent = 'Select';
+    newUl.appendChild(newH5);
+
+    let liSelect = document.createElement('li');
+    let select = document.createElement('select');
+    select.name = 'links';
+    select.id = 'links';
+    select.classList.add('link_drop');
+    
+    let defaultOption = document.createElement('option');
+    defaultOption.disabled = true;
+    defaultOption.selected = true;
+    defaultOption.textContent = 'Please Select';
+    select.appendChild(defaultOption);
+
+    let options = ['Facebook', 'Twitter', 'Instagram', 'Linkedin', 'YouTube'];
+    for (let i = 0; i < options.length; i++) {
+        let option = document.createElement('option');
+        option.value = (i + 2).toString();
+        option.textContent = options[i];
+        select.appendChild(option);
+    }
+    liSelect.appendChild(select);
+    newUl.appendChild(liSelect);
+
+    // Create the LI for the input field
+    let liInput = document.createElement('li');
+    let input = document.createElement('input');
+    input.type = 'text';
+    input.id = 'link_text';
+    liInput.appendChild(input);
+    newUl.appendChild(liInput);
+
+    // Append the UL to the div
+    newDiv.appendChild(newUl);
+
+    // Append the new div to the form container
+    document.getElementById('formContainer').appendChild(newDiv);
+});
+
+
+document.getElementById('addFaqButton').addEventListener('click', function() {
+            let faqDiv = document.createElement('div');
+            faqDiv.classList.add('form-group');
+
+            let faqLabel = document.createElement('label');
+            faqLabel.textContent = 'FAQ';
+
+            let faqInput = document.createElement('input');
+            faqInput.type = 'text';
+            faqInput.name = 'name';
+            faqInput.placeholder = 'FAQ';
+            faqInput.required = true;
+
+            let faqArea = document.createElement('textarea');
+            faqArea.name = 'description';
+            faqArea.id = 'description';
+            faqArea.placeholder = 'Answer';
+
+            faqDiv.appendChild(faqLabel);
+            faqDiv.appendChild(faqInput);
+            faqDiv.appendChild(faqArea);
+
+            document.getElementById('faqContainer').appendChild(faqDiv);
+        });
+
+
+
+    </script>
+
+  </body>
+</html>
